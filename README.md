@@ -19,5 +19,5 @@ pubblico la pagina è visibile a chiunque abbia il link.
 - Per condividerla, salva la cartella in OneDrive, SharePoint o Drive: i colleghi aprono `index.html`.
 
 ## Personalizzare
-In `generate.py` modifica `COMPANIES` (aziende, feed, colori), `DAYS` (giorni mostrati) e `MAX_PER_CO`.
+In `generate.py` modifica `COMPANIES` (aziende, feed, colori), `DAYS` (giorni mostrati, ora 7), `MAX_PER_CO` e le parole chiave `AI_RE` / `NOISE_RE` che decidono quali notizie restano.
 Se un feed non risponde, lo script lo salta e scrive un avviso. Se nessun feed risponde non sovrascrive la pagina.
