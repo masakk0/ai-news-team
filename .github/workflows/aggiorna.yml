@@ -1,7 +1,8 @@
 name: Aggiorna Radar AI
 on:
   schedule:
-    - cron: "0 5 * * *"   # ogni giorno alle 05:00 UTC (07:00 in Italia con ora legale)
+    - cron: "17 4 * * *"   # 06:17 in Italia (ora legale)
+    - cron: "43 5 * * *"   # 07:43, riserva
   workflow_dispatch: {}    # permette anche l'avvio manuale
   push:                    # riparte quando modifichi lo script o questo file
     paths: ["generate.py", ".github/workflows/aggiorna.yml"]
